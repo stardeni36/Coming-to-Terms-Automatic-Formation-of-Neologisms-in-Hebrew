@@ -26,7 +26,7 @@ eliezer.py: this file's main runs the whole scheme. Given an English word, retur
 ## To run the scheme one should:
 * Download the Universal Dependencies 2.5 Models for UDPipe from: https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131 
 * Copy the Hebrew model into the project, and load it in line 48 of eliezer.py
-* Ask the missing data folder by contacting us via: (<mails>) (we omitted the data due to its size and some restrictions on it).  
+* Ask the missing data folder by contacting us via: stav.yardeni@cs.huji.ac.il, moranmiz@cs.huji.ac.il (we omitted the data due to its size and some restrictions on it).  
 
 ## Requirements: 
 * matplotlib==3.3.0
@@ -35,5 +35,27 @@ eliezer.py: this file's main runs the whole scheme. Given an English word, retur
 * pandas==1.1.0
 * ufal.udpipe==1.2.0.3
 * pytorch==1.1.0
+
+## Pointers to download the free sources we used:
+#### English - English dictionaries:
+(1) Wikipedia abstracts: https://dumps.wikimedia.org/enwiki/latest/ (we used the enwiki-latest-abstract.xml.gz file)  
+(2) English Wiktionary: https://dumps.wikimedia.org/enwiktionary/latest/  
+(3) Urban dictionary: https://github.com/mattbierner/urban-dictionary-entry-collector  
+(4) Webster dictionary 1913: https://github.com/adambom/dictionary  
+(5) WordNet definitions (via python's nltk)  
+(6) Conceptnet definitions (via API)  
+(7) Easy English student dictionary: https://www.easypacelearning.com/english-books/english-books-for-download-pdf/category/33-3-dictionaries-to-download-in-pdf  
+#### English - Hebrew dictionaries:
+(1) Hebrew Wiktionary: https://dumps.wikimedia.org/hewiktionary/latest/  
+(2) English Wikitionary: https://dumps.wikimedia.org/enwiktionary/latest/  
+(3) Hebrew WordNet: http://compling.hss.ntu.edu.sg/omw/  
+(4) Wikipedia langlinks: https://dumps.wikimedia.org/hewiki/latest/ (we used the files: hewiki-latest-langlinks.sql.gz, hewiki-latest-page.sql.gz)  
+#### Root and pattern source:
+Hebrew Wiktionary: https://dumps.wikimedia.org/hewiktionary/latest/  
+#### Synonyms:
+(1) Hebrew Wiktionary: https://dumps.wikimedia.org/hewiktionary/latest/  
+(2) Hebrew WordNet: http://cl.haifa.ac.il/projects/mwn/index.shtml  (we used the .sql files)  
+#### Associations EAT database (for future work):
+See https://joernhees.de/dump/papers/2016ESWCEATDBpedia.pdf (a link to their database is in the paper)  
 
 ## Have fun! 

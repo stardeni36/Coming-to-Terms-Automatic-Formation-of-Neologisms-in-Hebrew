@@ -26,7 +26,7 @@ eliezer.py: this file's main runs the whole scheme. Given an English word, retur
 ## To run the scheme one should:
 * Download the Universal Dependencies 2.5 Models for UDPipe from: https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131 
 * Copy the Hebrew model into the project, and load it in line 48 of eliezer.py
-* Ask the missing data folder by contacting us via: stav.yardeni@cs.huji.ac.il, moranmiz@cs.huji.ac.il (we omitted the data due to its size and some restrictions on it).  
+* Ask the missing data folder by contacting us via: stav.yardeni@cs.huji.ac.il, moran.mizrahi@mail.huji.ac.il (we omitted the data due to its size and some restrictions on it).  
 
 ## Requirements: 
 * matplotlib==3.3.0

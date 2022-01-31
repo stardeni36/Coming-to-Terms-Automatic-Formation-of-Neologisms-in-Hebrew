@@ -35,6 +35,7 @@ eliezer.py: this file's main runs the whole scheme. Given an English word, retur
 * pandas==1.1.0
 * ufal.udpipe==1.2.0.3
 * pytorch==1.1.0
+* gensim==4.1.2
 
 ## Pointers to download the free sources we used:
 #### English - English dictionaries:
